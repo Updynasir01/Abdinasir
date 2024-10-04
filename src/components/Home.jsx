@@ -49,12 +49,12 @@ function Home (){
 
       
         
-
+<section id="home">
       
         <div className="sm:flex gap-7 justify-between py-4 bg-white backdrop-blur-3xl opacity-75 px-6  sm:px-32 sm:fixed top-0 sm:left-0 sm:right-0 items-center ">
             <h1 className="font-bold text-[#1c1e53] flex text-1xl"><TbHexagonLetterA className="text-[#5e3bee] text-2xl" /> BDINASIR</h1>
             <ul style={{display :Open ==true? "block" :""  }} className="sm:flex gap-6 hidden mt-3  text-[#1c1e53] font-medium ">
-                <li className=" hover:text-[#5e3bee]"> <a href="">HOME</a> </li>
+                <li className=" hover:text-[#5e3bee]"> <a href="#home">HOME</a> </li>
                 <NavLink to="/Contact"> <li className=" hover:text-[#5e3bee]"> CONTACT </li></NavLink>
                 <li className=" hover:text-[#5e3bee]"> <a href="#three">ABOUT ME</a></li>
                 <li className=" hover:text-[#5e3bee]"> <a href="#four">CASES</a></li>
@@ -64,6 +64,7 @@ function Home (){
             <IoMdClose onClick={handleClose}  style={{display : Open == true? "block" :""  }} className="absolute hidden top-5 sm:hidden right-7"  />
             <NavLink to="/Contact"> <button className=" hidden sm:block w-[135px] h-[50px] border hover:bg-[#5e3bee] hover:text-white border-[#5e3bee] text-[#5e3bee] rounded-md">Contact me</button></NavLink>
         </div>
+        </section>
 
         <section id="one">
         <div className="bg-[#f4fbfe]  h-screen sm:flex justify-between items-center px-6 sm:px-32 pt-14">
