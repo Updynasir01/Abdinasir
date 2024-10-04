@@ -111,7 +111,7 @@ function Home (){
                     
                     </div>
                     <h1 className="text-2xl text-[#282938] font-bold mt-7 ">Strategy & Planing</h1>
-                     <p className=" mt-2">Lorem ipsum dolor sit amet Asperiores ratione adipisci quaerat. Nisi eos esse ad natus adipisci, magni dolorem!</p>
+                     <p className=" mt-2">strategy and planning involve defining goals, aligning resources, prioritizing tasks, and optimizing workflows</p>
                 </div>
                 <div className="w-[300px] h-[270px] mt-6 p-4 rounded-md hover:border-b-4 hover:shadow-lg border-[#5e3bee] bg-[#f5fcff]">
                     
@@ -121,7 +121,7 @@ function Home (){
                     <CiSettings className="text-4xl text-[#006b6a] " />
                     </div>
                     <h1 className="text-2xl  text-[#282938] font-bold mt-7 ">Redesignin</h1>
-                     <p className="mt-2 ">Lorem ipsum dolor sit amet  Asperiores ratione adipisci quaerat. Nisi eos esse ad natus adipisci, magni dolorem!</p>
+                     <p className="mt-2 "> enhancing functionality, and refreshing aesthetics to meet evolving needs!</p>
                 </div>
                 <div className="w-[300px] h-[270px] mt-6 p-4 rounded-md hover:border-b-4 hover:shadow-lg border-[#5e3bee] bg-[#f5fcff]">
                     
@@ -131,7 +131,7 @@ function Home (){
                     <RiQuillPenLine className="text-4xl text-[#006b6a] " />
                     </div>
                     <h1 className="text-2xl font-bold text-[#282938] mt-7 ">UI & UX Design</h1>
-                     <p className="mt-2 ">Lorem ipsum dolor sit amet. Asperiores ratione adipisci quaerat. Nisi eos esse ad natus adipisci, magni dolorem!</p>
+                     <p className="mt-2 "> Skilled in UI/UX design, I create intuitive interfaces and engaging experiences that prioritize user satisfaction.</p>
                 </div>
                 <div className="w-[300px] h-[270px] mt-6 p-4 rounded-md hover:border-b-4 hover:shadow-lg border-[#5e3bee] bg-[#f5fcff]">
                     
@@ -140,7 +140,7 @@ function Home (){
                     <FaCode className="text-4xl text-[#006b6a] " />
                     </div>
                     <h1 className="text-2xl text-[#282938] font-bold mt-7 ">Web Development</h1>
-                     <p className="mt-2 ">Lorem ipsum dolor sit amet  Asperiores ratione adipisci quaerat. Nisi eos esse ad natus adipisci, magni dolorem!</p>
+                     <p className="mt-2 ">Proficient in web development, I build responsive, user-friendly websites using modern technologies and best practices.</p>
                 </div>
                 
             </div>
@@ -182,26 +182,26 @@ function Home (){
                 <button className="w-[181px] h-60px rounded-md border-2 hover:bg-[#e62872] hover:text-white border-[#e62872] text-[#e62872] "> <i class="fa-brands fa-github mr-2"></i> <a href="https://github.com/Updynasir01">Visit My GitHub</a>  </button>
             </div>
             <div className="mt-24 h-[560px]  sm:flex grid grid-cols-1 sm:justify-around">
-                <div className="h-[470px]  sm:w-[400px] w-[350px]  shadow-md rounded-md">
+                <div className="h-[490px]  sm:w-[400px] w-[350px]  shadow-md rounded-md">
                     <img src={Image} alt="" />
                     <h1 className="text-2xl px-3 mt-3 font-bold text-[#282938] ">Voting System</h1>
-                    <p className="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe iure omnis harum illo animi ipsum. </p>
+                    <p className="px-3">Developed a secure voting system with user authentication, real-time results, and an intuitive interface for participants </p>
                     <button className="border-b-2 p-2 hover:scale-105 ml-3 font-semibold flex border-[#5e3bee] mt-7">View In GitHub <GoArrowUpRight className="ml-2 mt-1 font-semibold" /></button>
 
                     
                 </div>
-                <div className="h-[470px]  sm:w-[400px] mt-7 w-[350px] shadow-md rounded-md">
+                <div className="h-[490px]  sm:w-[400px] mt-7 w-[350px] shadow-md rounded-md">
                     <img src={Xal} alt="" />
                     <h1 className="text-2xl px-3 mt-3 font-bold text-[#282938] ">App Dashboard</h1>
-                    <p className="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe iure omnis harum illo animi ipsum. </p>
+                    <p className="px-3">Created an interactive app dashboard, featuring data visualization and user-friendly navigation for enhanced decision-making. </p>
                     <button className="border-b-2 p-2 hover:scale-105 ml-3 font-semibold flex border-[#5e3bee] mt-7">View In GitHub <GoArrowUpRight className="ml-2 mt-1 font-semibold" /></button>
 
                     
                 </div>
-                <div className="h-[470px]  sm:w-[400px] mt-7 w-[350px] shadow-md rounded-md">
+                <div className="h-[490px]  sm:w-[400px] mt-7 w-[350px] shadow-md rounded-md">
                     <img src={Moc} alt="" />
-                    <h1 className="text-2xl px-3 mt-3 font-semibold text-[#282938] ">Voting System</h1>
-                    <p className="px-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe iure omnis harum illo animi ipsum. </p>
+                    <h1 className="text-2xl px-3 mt-3 font-semibold text-[#282938] ">Home Renting</h1>
+                    <p className="px-3">Designed a home renting platform that simplifies listings, facilitates communication, and streamlines the rental process for users. </p>
                     <button className="border-b-2 p-2 hover:scale-105 ml-3 font-semibold flex border-[#5e3bee] mt-7">View In GitHub <GoArrowUpRight className="ml-2 mt-1 font-semibold" /></button>
 
                     
@@ -213,7 +213,7 @@ function Home (){
              
             
 
-        <div className=" mt-[300px]">
+        <div className=" sm:mt-[300px] mt-[1000px]">
             {/* <Contact className=""/> */}
             <div className="bg-[#f5fcff] mt-24 ">
 
